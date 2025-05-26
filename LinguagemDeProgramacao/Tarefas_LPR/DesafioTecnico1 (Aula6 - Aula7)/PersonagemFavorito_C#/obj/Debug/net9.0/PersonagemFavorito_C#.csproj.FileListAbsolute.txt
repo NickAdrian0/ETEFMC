@@ -1,0 +1,15 @@
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\bin\Debug\net9.0\PersonagemFavorito_C#.exe
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\bin\Debug\net9.0\PersonagemFavorito_C#.deps.json
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\bin\Debug\net9.0\PersonagemFavorito_C#.runtimeconfig.json
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\bin\Debug\net9.0\PersonagemFavorito_C#.dll
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\bin\Debug\net9.0\PersonagemFavorito_C#.pdb
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\obj\Debug\net9.0\PersonagemFavorito_C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\obj\Debug\net9.0\PersonagemFavorito_C#.AssemblyInfoInputs.cache
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\obj\Debug\net9.0\PersonagemFavorito_C#.AssemblyInfo.cs
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\obj\Debug\net9.0\PersonagemFavorito_C#.csproj.CoreCompileInputs.cache
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\obj\Debug\net9.0\PersonagemFavorito_C#.sourcelink.json
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\obj\Debug\net9.0\PersonagemFavorito_C#.dll
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\obj\Debug\net9.0\refint\PersonagemFavorito_C#.dll
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\obj\Debug\net9.0\PersonagemFavorito_C#.pdb
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\obj\Debug\net9.0\PersonagemFavorito_C#.genruntimeconfig.cache
+c:\Users\Alunos\Documents\GitHub\DesafioTecnico01_2025\PersonagemFavorito_C#\obj\Debug\net9.0\ref\PersonagemFavorito_C#.dll

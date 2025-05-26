@@ -1,0 +1,15 @@
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\bin\Debug\net9.0\Tarefa3_C#.exe
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\bin\Debug\net9.0\Tarefa3_C#.deps.json
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\bin\Debug\net9.0\Tarefa3_C#.runtimeconfig.json
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\bin\Debug\net9.0\Tarefa3_C#.dll
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\bin\Debug\net9.0\Tarefa3_C#.pdb
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\obj\Debug\net9.0\Tarefa3_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\obj\Debug\net9.0\Tarefa3_C#.AssemblyInfoInputs.cache
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\obj\Debug\net9.0\Tarefa3_C#.AssemblyInfo.cs
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\obj\Debug\net9.0\Tarefa3_C#.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\obj\Debug\net9.0\Tarefa3_C#.sourcelink.json
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\obj\Debug\net9.0\Tarefa3_C#.dll
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\obj\Debug\net9.0\refint\Tarefa3_C#.dll
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\obj\Debug\net9.0\Tarefa3_C#.pdb
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\obj\Debug\net9.0\Tarefa3_C#.genruntimeconfig.cache
+C:\Users\Nicolas\OneDrive\Documentos\GitHub\Tarefas_LPR\Aula6\Tarefa3_C#\obj\Debug\net9.0\ref\Tarefa3_C#.dll

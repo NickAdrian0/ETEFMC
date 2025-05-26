@@ -1,0 +1,15 @@
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.AssemblyInfoInputs.cache
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.AssemblyInfo.cs
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.csproj.CoreCompileInputs.cache
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.sourcelink.json
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\bin\Debug\net9.0\Tarefa1_C#.exe
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\bin\Debug\net9.0\Tarefa1_C#.deps.json
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\bin\Debug\net9.0\Tarefa1_C#.runtimeconfig.json
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\bin\Debug\net9.0\Tarefa1_C#.dll
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\bin\Debug\net9.0\Tarefa1_C#.pdb
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.dll
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\obj\Debug\net9.0\refint\Tarefa1_C#.dll
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.pdb
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.genruntimeconfig.cache
+c:\Users\Alunos\Documents\GitHub\Tarefas_LPR\Aula_4\Tarefa1_C#\obj\Debug\net9.0\ref\Tarefa1_C#.dll
