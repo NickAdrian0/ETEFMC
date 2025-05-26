@@ -1,0 +1,585 @@
+	/* USER CODE BEGIN Header */
+	/**
+	  ******************************************************************************
+	  * @file           : main.c
+	  * @brief          : Main program body
+	  ******************************************************************************
+	  * @attention
+	  *
+	  * <h2><center>&copy; Copyright (c) 2025 STMicroelectronics.
+	  * All rights reserved.</center></h2>
+	  *
+	  * This software component is licensed by ST under BSD 3-Clause license,
+	  * the "License"; You may not use this file except in compliance with the
+	  * License. You may obtain a copy of the License at:
+	  *                        opensource.org/licenses/BSD-3-Clause
+	  *
+	  ******************************************************************************
+	  */
+	/* USER CODE END Header */
+	/* Includes ------------------------------------------------------------------*/
+	#include "main.h"
+
+	/* Private includes ----------------------------------------------------------*/
+	/* USER CODE BEGIN Includes */
+	#include "st7735\st7735.h"
+	#include <stdlib.h>
+	#include <stdbool.h>
+	#include <string.h>
+	/* USER CODE END Includes */
+
+	/* Private typedef -----------------------------------------------------------*/
+	/* USER CODE BEGIN PTD */
+	typedef struct {
+		int valor;
+		bool revelada;
+	} Carta;
+	/* USER CODE END PTD */
+
+	/* Private define ------------------------------------------------------------*/
+	/* USER CODE BEGIN PD */
+
+	/*para criar novo, criar um:
+	Qpares = i
+	bool* usadoCartai[i] = {0};
+	mudar gameModeY e gameModeX de acordo (largura, altura)
+	mudar tempQcartas de acordo (*valor)
+	aumentar cartas[valor] para valor = quantidade maxima de cartas no geral
+	colocar mais cores em corCartas[]
+	*/
+
+	int gameModeY = 4;
+	int gameModeX = 4;
+	int CELULA_LARGURA = 160 / 4;
+	int CELULA_ALTURA = 80 / 4;
+	int LARGURA_TABULEIRO = 4;
+	float tempQcartas = 1;
+	int carta_largura = 8, carta_altura = 12;
+	int Qpares = 8;
+	bool usadoCarta8[8] = {0};
+	bool usadoCarta18[18] = {0};
+	bool* usadoCarta;
+
+	//Selecionar carta
+	int cursorX = 0, cursorY = 0, maxY = 3, maxX = 3;
+	int primeiraCartaX = -1, primeiraCartaY = -1;
+	int lastCursorX = 0, lastCursorY = 0;
+	bool selecionando = false;
+
+	//GerarParesAleatorios
+		 int cartas[36], valorCarta;
+	//Cores
+		 int corCartas[19] = {SALMON, BLUE, RED, GREEN, CYAN, MAGENTA, TURQUOISE, PURPLE, ORANGE, PINK, BROWN, GRAY, LIGHTGRAY, DARKGREEN, LIME, GOLD, NAVY, TEAL, YELLOW};
+	//mixdosdois
+		 Carta* cartasV = NULL;
+	//tentativas
+		 int acerto = 0, tentativas = 0, prevtentativas = 0, tentativas4x9 = 0, prevtentativas4x9 = 0;
+		 char sTentativas[1000], sPrevtentativas[1000], sTentativas4x9[1000], sPrevtentativas4x9[1000];
+		 int modoSelecionado[2] = {-1.,-1};
+	/* USER CODE END PD */
+
+	/* Private macro -------------------------------------------------------------*/
+	/* USER CODE BEGIN PM */
+
+	/* USER CODE END PM */
+
+	/* Private variables ---------------------------------------------------------*/
+	SPI_HandleTypeDef hspi1;
+
+	/* USER CODE BEGIN PV */
+	// array size is 1152
+
+	/* USER CODE END PV */
+
+	/* Private function prototypes -----------------------------------------------*/
+	void SystemClock_Config(void);
+	static void MX_GPIO_Init(void);
+	static void MX_SPI1_Init(void);
+	/* USER CODE BEGIN PFP */
+
+	/* USER CODE END PFP */
+
+	/* Private user code ---------------------------------------------------------*/
+	/* USER CODE BEGIN 0 */
+
+	/* USER CODE END 0 */
+
+	/**
+	  * @brief  The application entry point.
+	  * @retval int
+	  */
+	int main(void)
+	{
+
+	  /* USER CODE BEGIN 1 */
+
+	  /* USER CODE END 1 */
+
+	  /* MCU Configuration--------------------------------------------------------*/
+
+	  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+	  HAL_Init();
+
+	  /* USER CODE BEGIN Init */
+	  /* USER CODE END Init */
+
+	  /* Configure the system clock */
+	  SystemClock_Config();
+
+	  /* USER CODE BEGIN SysInit */
+
+	  /* USER CODE END SysInit */
+
+	  /* Initialize all configured peripherals */
+	  MX_GPIO_Init();
+	  MX_SPI1_Init();
+	  /* USER CODE BEGIN 2 */
+	  ST7735_Init();
+	  IniciarJogo();
+	  ST7735_FillScreen(WHITE);
+
+	  /* USER CODE END 2 */
+
+	  /* Infinite loop */
+	  /* USER CODE BEGIN WHILE */
+	  while (1)
+	  {
+		  do {
+			  NavegarCursor(&cursorX, &cursorY, maxY, maxX);
+
+			  		  if (cursorX != lastCursorX || cursorY != lastCursorY) {
+			  			  desenharCarta(lastCursorX, lastCursorY, cartasV[lastCursorY * LARGURA_TABULEIRO + lastCursorX].valor, carta_largura, carta_altura, CELULA_LARGURA, CELULA_ALTURA);
+			  			  lastCursorX = cursorX;
+			  			  lastCursorY = cursorY;
+			  		  }
+
+			  		  if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_10) == 0) {
+			  			  SelecionarCarta(cursorX, cursorY);
+			  			  HAL_Delay(150);
+			  		  }
+
+			  		  DesenharTabuleiro(CELULA_LARGURA, CELULA_ALTURA);
+
+			  		  int x_pos = cursorX * CELULA_LARGURA + (CELULA_LARGURA - carta_largura) / 2;
+			  		  int y_pos = cursorY * CELULA_ALTURA + (CELULA_ALTURA - carta_altura) / 2;
+			  		  ST7735_FillRectangle(x_pos, y_pos, carta_largura, carta_altura, YELLOW);
+		  } while (acerto != Qpares);
+		  ExibirFimDeJogo();
+
+	  }
+		/* USER CODE END WHILE */
+
+		/* USER CODE BEGIN 3 */
+
+	  /* USER CODE END 3 */
+	}
+
+	/**
+	  * @brief System Clock Configuration
+	  * @retval None
+	  */
+	void SystemClock_Config(void)
+	{
+	  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+	  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+	  /** Initializes the RCC Oscillators according to the specified parameters
+	  * in the RCC_OscInitTypeDef structure.
+	  */
+	  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+	  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+	  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+	  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+	  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+	  {
+		Error_Handler();
+	  }
+	  /** Initializes the CPU, AHB and APB buses clocks
+	  */
+	  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+								  |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+	  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+	  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+	  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+	  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+
+	  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+	  {
+		Error_Handler();
+	  }
+	}
+
+	/**
+	  * @brief SPI1 Initialization Function
+	  * @param None
+	  * @retval None
+	  */
+	static void MX_SPI1_Init(void)
+	{
+
+	  /* USER CODE BEGIN SPI1_Init 0 */
+
+	  /* USER CODE END SPI1_Init 0 */
+
+	  /* USER CODE BEGIN SPI1_Init 1 */
+
+	  /* USER CODE END SPI1_Init 1 */
+	  /* SPI1 parameter configuration*/
+	  hspi1.Instance = SPI1;
+	  hspi1.Init.Mode = SPI_MODE_MASTER;
+	  hspi1.Init.Direction = SPI_DIRECTION_1LINE;
+	  hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
+	  hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
+	  hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
+	  hspi1.Init.NSS = SPI_NSS_SOFT;
+	  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_32;
+	  hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
+	  hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
+	  hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
+	  hspi1.Init.CRCPolynomial = 10;
+	  if (HAL_SPI_Init(&hspi1) != HAL_OK)
+	  {
+		Error_Handler();
+	  }
+	  /* USER CODE BEGIN SPI1_Init 2 */
+
+	  /* USER CODE END SPI1_Init 2 */
+
+	}
+
+	/**
+	  * @brief GPIO Initialization Function
+	  * @param None
+	  * @retval None
+	  */
+	static void MX_GPIO_Init(void)
+	{
+	  GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+	  /* GPIO Ports Clock Enable */
+	  __HAL_RCC_GPIOA_CLK_ENABLE();
+	  __HAL_RCC_GPIOB_CLK_ENABLE();
+
+	  /*Configure GPIO pin Output Level */
+	  HAL_GPIO_WritePin(ST7735_CS_GPIO_Port, ST7735_CS_Pin, GPIO_PIN_RESET);
+
+	  /*Configure GPIO pin Output Level */
+	  HAL_GPIO_WritePin(GPIOB, ST7735_DC_Pin|ST7735_RES_Pin, GPIO_PIN_RESET);
+
+	  /*Configure GPIO pin : ST7735_CS_Pin */
+	  GPIO_InitStruct.Pin = ST7735_CS_Pin;
+	  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+	  GPIO_InitStruct.Pull = GPIO_NOPULL;
+	  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	  HAL_GPIO_Init(ST7735_CS_GPIO_Port, &GPIO_InitStruct);
+
+	  /*Configure GPIO pins : ST7735_DC_Pin ST7735_RES_Pin */
+	  GPIO_InitStruct.Pin = ST7735_DC_Pin|ST7735_RES_Pin;
+	  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+	  GPIO_InitStruct.Pull = GPIO_NOPULL;
+	  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+	  /*Configure GPIO pins : PA9 PA10 PA11 PA12 */
+	  GPIO_InitStruct.Pin = GPIO_PIN_9|GPIO_PIN_10|GPIO_PIN_11|GPIO_PIN_12;
+	  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+	  GPIO_InitStruct.Pull = GPIO_PULLUP;
+	  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+	}
+
+	/* USER CODE BEGIN 4 */
+	void GerarParesAleatorios(int cartas[36], int valorCarta, int Qpares) {
+	    memset(usadoCarta, 0, sizeof(bool) * Qpares);
+
+	    for (int i = 0; i < Qpares; i++) {
+	        int valorCarta;
+	        do {
+	            valorCarta = rand() % Qpares;
+	        } while (usadoCarta[valorCarta]);
+	        usadoCarta[valorCarta] = true;
+	        cartas[i * 2] = valorCarta;
+	        cartas[i * 2 + 1] = valorCarta;
+	    }
+	    for (int i = 0; i < (Qpares * 2); i++) {
+	        int randCartas = rand() % Qpares * 2;
+	        int tempCartas = cartas[i];
+	        cartas[i] = cartas[randCartas];
+	        cartas[randCartas] = tempCartas;
+	    }
+	}
+
+	void CopiarValoresParaCartas(Carta* cartasV, int* cartas, int QcartasTotal) {
+
+		for (int i = 0; i < QcartasTotal; i++) {
+			cartasV[i].valor = cartas[i];
+			cartasV[i].revelada = false;
+		}
+	}
+
+	void NavegarCursor(int* cursorX, int* cursorY, int maxY, int maxX) {
+
+		if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_12) == 0) {
+		   if (*cursorY == 0) *cursorY = maxX;
+		   else (*cursorY)--;
+		   HAL_Delay(150);
+	}
+
+		if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_11) == 0 && *cursorX < maxY) {
+			(*cursorX)++;
+			HAL_Delay(150);
+	}
+
+		if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_9) == 0 && *cursorX > 0) {
+			(*cursorX)--;
+			HAL_Delay(150);
+		}
+	}
+
+	bool CompararPares(int carta1X, int carta1Y, int carta2X, int carta2Y) {
+
+		if (carta1X == -1 || carta2X == -1) return false;
+
+		int indice1 = carta1Y * LARGURA_TABULEIRO + carta1X;
+		int indice2 = carta2Y * LARGURA_TABULEIRO + carta2X;
+
+		if (cartasV[indice1].valor == cartasV[indice2].valor) return true;
+		else return false;
+	}
+
+	void desenharCarta(int x, int y, int valorCarta, int carta_largura, int carta_altura, int CELULA_LARGURA, int CELULA_ALTURA) {
+
+		int x_pos = x * CELULA_LARGURA + (CELULA_LARGURA - carta_largura) / 2;
+		int y_pos = y * CELULA_ALTURA + (CELULA_ALTURA - carta_altura) / 2;
+
+		int index = y * LARGURA_TABULEIRO + x;
+
+		if (cartasV[index].revelada) {
+			uint16_t cor = corCartas[cartasV[index].valor];
+			ST7735_FillRectangle(x_pos, y_pos, carta_largura, carta_altura, cor);
+		} else ST7735_FillRectangle(x_pos, y_pos, carta_largura, carta_altura, BLACK);
+	}
+
+	void SelecionarCarta(int cursorX, int cursorY) {
+
+		int indice = cursorY * LARGURA_TABULEIRO + cursorX;
+
+		if (!cartasV[indice].revelada) {
+			cartasV[indice].revelada = true;
+			DesenharTabuleiro(CELULA_LARGURA, CELULA_ALTURA);
+
+			if (!selecionando) {
+				primeiraCartaX = cursorX;
+				primeiraCartaY = cursorY;
+				selecionando = true;
+			} else {
+				HAL_Delay(500);
+				if (CompararPares(primeiraCartaX, primeiraCartaY, cursorX, cursorY)) {
+					acerto++;
+					AtualizarTentativas();
+					primeiraCartaX = -1;
+					primeiraCartaY = -1;
+				}else {
+					HAL_Delay(1000);
+					AtualizarTentativas();
+					cartasV[indice].revelada = false;
+					cartasV[primeiraCartaY * LARGURA_TABULEIRO + primeiraCartaX].revelada = false;
+
+					primeiraCartaX = -1;
+					primeiraCartaY = -1;
+				}
+				selecionando = false;
+				DesenharTabuleiro(CELULA_LARGURA, CELULA_ALTURA);
+			}
+		}
+	}
+
+	void DesenharTabuleiro(int CELULA_LARGURA, int CELULA_ALTURA) {
+
+		for (int y = 0; y < gameModeX; y++) {
+			for (int x = 0; x < gameModeY; x++) {
+				desenharCarta(x, y, cartasV[y * LARGURA_TABULEIRO + x].valor, carta_largura, carta_altura, CELULA_LARGURA, CELULA_ALTURA);
+			}
+		}
+	}
+
+	void IniciarJogo() {
+
+	    ST7735_FillScreen(CYAN);
+	    ST7735_WriteString(20, 10, "JOGO DA", Font_16x26, MAGENTA, CYAN);
+	    ST7735_WriteString(20, 40, "MEMORIA", Font_16x26, MAGENTA , CYAN);
+	    HAL_Delay(800);
+	    ST7735_FillScreen(WHITE);
+	    ST7735_WriteString(10, 10, "SELECIONE O MODO:", Font_7x10, BLACK, WHITE);
+	    ST7735_WriteString(10, 25, "MODO:4x4 PA11", Font_11x18, BLUE, WHITE);
+	    ST7735_WriteString(10, 50, "MODO:4x9 PA9", Font_11x18, RED, WHITE);
+
+
+	    modoSelecionado[1] = -1;
+	    modoSelecionado[2] = -1;
+	    int buttoncheck = -1;
+	    while (buttoncheck == -1) {
+
+	    	if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_11) == 0) {
+	    		modoSelecionado[1] = 0;
+	    	    usadoCarta = usadoCarta8;
+	    	    acerto = 0;
+	    	    buttoncheck = 0;
+	    	    gameModeY = 4;
+	    	    gameModeX = 4;
+	    	    tempQcartas = 1.0f;
+	    	    Qpares = 8;
+	    	    LARGURA_TABULEIRO = gameModeY;
+	    	    maxY = gameModeY - 1;
+	    	    maxX = gameModeX - 1;
+	    	    tentativas = 0;
+	    	    tentativas4x9 = 0;
+	    	    HAL_Delay(100);
+	    	    ST7735_FillScreen(WHITE);
+	    	    sprintf(sPrevtentativas, " Recorde atual       %d", prevtentativas);
+	    	    ST7735_WriteString(0, 25, sPrevtentativas, Font_11x18, BLACK, WHITE);
+	    	    HAL_Delay(1000);
+	    	} else if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_9) == 0) {
+	    		modoSelecionado[2] = 1;
+	    		acerto = 0;
+	    	    usadoCarta = usadoCarta18;
+	    	    buttoncheck = 1;
+	    	    gameModeY = 9;
+	    	    gameModeX = 4;
+	    	    tempQcartas = 2.25f;
+	    	    Qpares = 18;
+	    	    LARGURA_TABULEIRO = gameModeY;
+	    	    maxY = gameModeY - 1;
+	    	    maxX = gameModeX - 1;
+	    	    tentativas = 0;
+	    	    tentativas4x9 = 0;
+	    	    HAL_Delay(100);
+	    	    ST7735_FillScreen(WHITE);
+	    	    sprintf(sPrevtentativas4x9, " Recorde atual       %d", prevtentativas4x9);
+	    	    ST7735_WriteString(0, 25, sPrevtentativas4x9, Font_11x18, BLACK, WHITE);
+	    	    HAL_Delay(1000);
+	    	}
+	    }
+	    CELULA_LARGURA = 160 / gameModeY;
+	    CELULA_ALTURA = 80 / gameModeX;
+	    ST7735_FillScreen(WHITE);
+	    int QcartasTotal = (Qpares * 2) * (int)tempQcartas;
+	    if(cartasV != NULL) {
+	        free(cartasV);
+	        cartasV = NULL;
+	    }
+
+	    cartasV = (Carta*)malloc(sizeof(Carta) * QcartasTotal);
+	    if (cartasV == NULL) {
+	        while(1);
+	    }
+	    GerarParesAleatorios(cartas, valorCarta, Qpares);
+	    CopiarValoresParaCartas(cartasV, cartas, QcartasTotal);
+
+	}
+
+	void ExibirFimDeJogo() {
+		int deslocamentos[] = {10, 13, 16, 19, 16, 13, 10, 13, 16, 19};
+		int num_frames = sizeof(deslocamentos) / sizeof(deslocamentos[0]);
+
+		ST7735_FillScreen(BLACK);
+		for (int i = 0; i < num_frames; i++) {
+		    ST7735_WriteString(deslocamentos[i] + 30, 15, "GAME", Font_16x26, RED, BLACK);
+		    HAL_Delay(50);
+		    ST7735_WriteString(deslocamentos[i] + 30, 45, "OVER", Font_16x26, RED, BLACK);
+		    HAL_Delay(50);
+		}
+			ST7735_FillScreen(BLACK);
+			AtualizarRecorde();
+
+		ST7735_WriteString(10, 70, "Reiniciar PA10", Font_7x10, WHITE, BLACK);
+		int selecaoP10 = -1;
+		do {
+			if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_10) == 0) {
+				IniciarJogo();
+				selecaoP10 = 0;
+		}
+	} while (selecaoP10 == -1);
+}
+	void AtualizarRecorde() {
+		if (modoSelecionado[1] == 0) {
+			if (tentativas < prevtentativas)
+				{
+					sprintf(sTentativas, "Tentativas: %d", tentativas);
+					ST7735_WriteString(10, 5, sTentativas, Font_7x10, GREEN, BLACK);
+					sprintf(sPrevtentativas, "O recorde anterior de  %d foi quebrado!", prevtentativas);
+					ST7735_WriteString(10, 30, sPrevtentativas, Font_7x10, GREEN, BLACK);
+
+				} else if (prevtentativas == 0){
+					ST7735_WriteString(10, 10, "Um novo recorde foi  inserido!", Font_7x10, WHITE, BLACK);
+				}
+					else if (tentativas > prevtentativas)
+				{
+					sprintf(sTentativas, "Tentativas: %d", tentativas);
+					ST7735_WriteString(10, 5, sTentativas, Font_7x10, GREEN, BLACK);
+					sprintf(sPrevtentativas, "O recorde atual: %d", prevtentativas);
+					ST7735_WriteString(10, 30, sPrevtentativas, Font_7x10, WHITE, BLACK);
+				}
+			}
+			prevtentativas = tentativas;
+
+	       if (modoSelecionado[2] == 1) {
+	    	   if (tentativas4x9 < prevtentativas4x9)
+	    	   {
+	    		  sprintf(sTentativas4x9, "Tentativas: %d", tentativas4x9);
+	    		  ST7735_WriteString(10, 5, sTentativas4x9, Font_7x10, GREEN, BLACK);
+	    		  sprintf(sPrevtentativas4x9, "O recorde anterior de  %d foi quebrado!", prevtentativas);
+	    		  ST7735_WriteString(10, 30, sPrevtentativas4x9, Font_7x10, GREEN, BLACK);
+	    	   }  else if (prevtentativas4x9 == 0)
+	    	   {
+					ST7735_WriteString(10, 10, "Um novo recorde foi  inserido!", Font_7x10, WHITE, BLACK);
+	    	   } else if (tentativas4x9 > prevtentativas4x9)
+			   {
+				  sprintf(sTentativas4x9, "Tentativas: %d", tentativas4x9);
+				  ST7735_WriteString(10, 5, sTentativas4x9, Font_7x10, GREEN, BLACK);
+			      sprintf(sPrevtentativas4x9, "O recorde atual: %d", prevtentativas4x9);
+			      ST7735_WriteString(10, 30, sPrevtentativas4x9, Font_7x10, WHITE, BLACK);
+				}
+	       }
+	       prevtentativas4x9 = tentativas4x9;
+}
+
+	void AtualizarTentativas() {
+		if (modoSelecionado[1] == 0) tentativas++;
+		else if (modoSelecionado[2] == 1) tentativas4x9++;
+	}
+	/* USER CODE END 4 */
+
+	/**
+	  * @brief  This function is executed in case of error occurrence.
+	  * @retval None
+	  */
+	void Error_Handler(void)
+	{
+	  /* USER CODE BEGIN Error_Handler_Debug */
+	  /* User can add his own implementation to report the HAL error return state */
+	  __disable_irq();
+	  while (1)
+	  {
+	  }
+	  /* USER CODE END Error_Handler_Debug */
+	}
+
+	#ifdef  USE_FULL_ASSERT
+	/**
+	  * @brief  Reports the name of the source file and the source line number
+	  *         where the assert_param error has occurred.
+	  * @param  file: pointer to the source file name
+	  * @param  line: assert_param error line source number
+	  * @retval None
+	  */
+	void assert_failed(uint8_t *file, uint32_t line)
+	{
+	  /* USER CODE BEGIN 6 */
+	  /* User can add his own implementation to report the file name and line number,
+		 ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+	  /* USER CODE END 6 */
+	}
+	#endif /* USE_FULL_ASSERT */
+
+	/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

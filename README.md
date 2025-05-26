@@ -1,2 +1,2 @@
 # ETEFMC
-Diretórios feitos a Escola Técnica de Ensino
+Diretórios feitos para a Escola Técnica de Ensino em 2025
