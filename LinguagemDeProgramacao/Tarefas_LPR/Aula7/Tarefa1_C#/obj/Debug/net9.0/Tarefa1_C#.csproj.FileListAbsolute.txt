@@ -1,0 +1,15 @@
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\bin\Debug\net9.0\Tarefa1_C#.exe
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\bin\Debug\net9.0\Tarefa1_C#.deps.json
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\bin\Debug\net9.0\Tarefa1_C#.runtimeconfig.json
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\bin\Debug\net9.0\Tarefa1_C#.dll
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\bin\Debug\net9.0\Tarefa1_C#.pdb
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.AssemblyInfoInputs.cache
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.AssemblyInfo.cs
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.sourcelink.json
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.dll
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\obj\Debug\net9.0\refint\Tarefa1_C#.dll
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.pdb
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\obj\Debug\net9.0\Tarefa1_C#.genruntimeconfig.cache
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula7\Tarefa1_C#\obj\Debug\net9.0\ref\Tarefa1_C#.dll
