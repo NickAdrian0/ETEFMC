@@ -1,3 +1,6 @@
 {
-    "dotnet.defaultSolution": "Tarefa1_C#.sln"
+    "dotnet.defaultSolution": "Tarefa1_C#.sln",
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }
