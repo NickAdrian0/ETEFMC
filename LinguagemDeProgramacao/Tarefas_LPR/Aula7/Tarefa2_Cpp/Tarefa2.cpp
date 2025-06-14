@@ -22,9 +22,16 @@ int main() {
             tempData = to_string(i + 1);
             data_Position = data_Position + " " + tempData;
         }
+
+    switch (data_Frequency)
+    case 0: 
+    "O número não está presente no banco de dados"; break;
+    case 1: "O número está presente no banco de dados. Ele aparece "<< data_Frequency << " vez, na posição" << data_Position;      
+    default:"O número está presente no banco de dados. Ele aparece " << data_Frequency << " vezez, nas posições:" << data_Position;
+
     }if (data_Frequency != 0) { 
-        if (data_Frequency != 1) cout << "O número está presente no banco de dados. Ele aparece " << data_Frequency << " vezez, nas posições:" << data_Position;
-        else cout << "O número está presente no banco de dados. Ele aparece "<< data_Frequency << " vez, na posição" << data_Position;      
-    } else cout << "O número não está presente no banco de dados"; 
+        if (data_Frequency != 1) cout << 
+        else cout << 
+    } else cout << 
     exit(0);   
 }
