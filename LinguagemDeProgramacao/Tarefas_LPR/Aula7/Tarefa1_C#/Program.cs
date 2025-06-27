@@ -1,8 +1,6 @@
-﻿int[] numInt = new int[10];
-int[] Par = new int[10];
-int[] Impar = new int[10];
+﻿int[] numInt = new int[10], Par = new int[10], Impar = new int[10];
 
-    Console.WriteLine("Bem vindo ao separador de numeros. Insira 10 números e lhe direi se são pares ou impares.");
+Console.WriteLine("Bem vindo ao separador de numeros. Insira 10 números e lhe direi se são pares ou impares.");
 for (int i = 0; i < numInt.Length; i++) {
     Console.WriteLine("Insira o " + (i+1) + "o número");
     numInt[i] = Convert.ToInt32(Console.ReadLine());
