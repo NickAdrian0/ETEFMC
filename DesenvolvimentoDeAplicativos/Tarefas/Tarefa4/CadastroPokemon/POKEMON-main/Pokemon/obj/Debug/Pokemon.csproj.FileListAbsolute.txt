@@ -1,0 +1,84 @@
+C:\Users\Alunos\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache
+C:\Users\Alunos\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.Cadastro.resources
+C:\Users\Alunos\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.Properties.Resources.resources
+C:\Users\Alunos\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.GenerateResource.cache
+C:\Users\Alunos\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\source\repos\Pokemon\Pokemon\bin\Debug\Pokemon.exe.config
+C:\Users\Alunos\source\repos\Pokemon\Pokemon\bin\Debug\Pokemon.exe
+C:\Users\Alunos\source\repos\Pokemon\Pokemon\bin\Debug\Pokemon.pdb
+C:\Users\Alunos\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.exe
+C:\Users\Alunos\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\Alunos\source\repos\Pokemon\Pokemon\obj\Debug\Pokemon.Menu.resources
+C:\Users\guilh\Documents\Ete\Dpl\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe.config
+C:\Users\guilh\Documents\Ete\Dpl\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe
+C:\Users\guilh\Documents\Ete\Dpl\POKEMON-main\Pokemon\bin\Debug\Pokemon.pdb
+C:\Users\guilh\Documents\Ete\Dpl\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache
+C:\Users\guilh\Documents\Ete\Dpl\POKEMON-main\Pokemon\obj\Debug\Pokemon.Cadastro.resources
+C:\Users\guilh\Documents\Ete\Dpl\POKEMON-main\Pokemon\obj\Debug\Pokemon.Menu.resources
+C:\Users\guilh\Documents\Ete\Dpl\POKEMON-main\Pokemon\obj\Debug\Pokemon.Properties.Resources.resources
+C:\Users\guilh\Documents\Ete\Dpl\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.GenerateResource.cache
+C:\Users\guilh\Documents\Ete\Dpl\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Documents\Ete\Dpl\POKEMON-main\Pokemon\obj\Debug\Pokemon.exe
+C:\Users\guilh\Documents\Ete\Dpl\POKEMON-main\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe.config
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\bin\Debug\Pokemon.pdb
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.Cadastro.resources
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.Menu.resources
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.Properties.Resources.resources
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.GenerateResource.cache
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.exe
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\alunos\Desktop\_ProjetinMoska-main\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.Editar.resources
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe.config
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\bin\Debug\Pokemon.pdb
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.Editar.resources
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.Cadastro.resources
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.Menu.resources
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.Properties.Resources.resources
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.GenerateResource.cache
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.exe
+C:\Users\alunos\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.exe.config
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.Editar.resources
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.Cadastro.resources
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.Menu.resources
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.Properties.Resources.resources
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.GenerateResource.cache
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.exe
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe.config
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska-main\POKEMON-main\Pokemon\bin\Debug\Pokemon.pdb
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.exe.config
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.Editar.resources
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.Cadastro.resources
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.Menu.resources
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.Properties.Resources.resources
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.GenerateResource.cache
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.exe
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\obj\Debug\Pokemon.pdb
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe.config
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe
+C:\Users\Nicolas\Documents\GitHub\_ProjetinMoska\POKEMON-main\Pokemon\bin\Debug\Pokemon.pdb
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe.config
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\bin\Debug\Pokemon.exe
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\bin\Debug\Pokemon.pdb
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.AssemblyReference.cache
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\obj\Debug\Pokemon.Editar.resources
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\obj\Debug\Pokemon.Cadastro.resources
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\obj\Debug\Pokemon.Menu.resources
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\obj\Debug\Pokemon.Properties.Resources.resources
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.GenerateResource.cache
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\obj\Debug\Pokemon.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\obj\Debug\Pokemon.exe
+C:\Users\Alunos\Documents\Aluno de 2025\desenvolvimento_de_aplicativos\Atividades\Tarefas\Tarefa4\CadastroPokemon\POKEMON-main\Pokemon\obj\Debug\Pokemon.pdb

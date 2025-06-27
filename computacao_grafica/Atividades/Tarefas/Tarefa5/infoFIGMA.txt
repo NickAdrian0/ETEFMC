@@ -1,0 +1,57 @@
+======================================================================================================================================================================
+
+Esqueleto de Informações - 
+Nome;
+Descrição breve;
+Descrição Longa;
+Horas de curso;
+Material;
+Certificado
+Requisitos
+
+=======================================================================================================================================================================
+LPR - 
+Linguagens de programação 
+Aprenda lógica de programação, curso completo (Full Stack) de C# e C++, e integração no mundos dos games.
+
+Domine a lógica de programação e torne-se um desenvolvedor Full Stack com C# e C++. Neste curso completo, você aprenderá desde os fundamentos até técnicas avançadas, incluindo desenvolvimento web, aplicações desktop e integração com o mundo dos games. 
+Aprenda a criar jogos, otimizar código e explorar frameworks essenciais para o mercado. Ideal para iniciantes e programadores que desejam expandir seus conhecimentos.
+
+Horas de curso - 130 Horas de curso;
+1 Link de tutorial;
+20 Slides (Para download);
+Certificado de conclusão;
+Requisitos - Computador com Visual Studio Code instalado, e adaptado para C# e C++ (Veja - link de tutorial), assim como o aplicativo UNITY.
+
+======================================================================================================================================================================
+SB - 
+Sistemas Embarcados
+Aprenda a trabalhar com ferramentas utilizadas no mercado de trabalho, assim como a inteção entre o mundo do SOFTWARE e HARDWARE.
+
+
+Este curso ensina a desenvolver sistemas embarcados, integrando software e hardware para criar dispositivos inteligentes. 
+Aborda microcontroladores, sensores, protocolos de comunicação (I2C, SPI, UART) e programação em C e Assembly, 
+além do uso de RTOS. Ideal para quem deseja atuar em automação, IoT e eletrônica embarcada. 
+
+
+Horas de curso - 100 Horas de curso;
+1 Link de tutorial;
+8 Slides (Para download);
+Certificado de conclusão.;
+Requisitos - Computador com STM32CUBE e Visual Studio Code Instalado, e adaptado para C.	
+
+======================================================================================================================================================================
+CGR - 
+Computação gráfica 
+Aprenda lógica de Desing (Full Stack) atrávez de técnicas computacionais, manipulação de informações e geometria, e gameficação de sistemas.
+
+Este curso aborda computação gráfica Full Stack, ensinando design digital, modelagem 3D, renderização e animação por meio de técnicas computacionais e manipulação geométrica. Explora gameficação de sistemas, criação de interfaces visuais e uso de engines gráficas (Unity, OpenGL). Ideal para quem deseja atuar em jogos, simulações e realidade virtual/aumentada. 
+
+
+Horas de curso - 130 Horas de curso;
+1 Link de tutorial;
+32 Slides (Para download);
+Certificado de conclusão;
+Requisitos - Computador com acesso a internet e UNITY instalado.
+
+======================================================================================================================================================================

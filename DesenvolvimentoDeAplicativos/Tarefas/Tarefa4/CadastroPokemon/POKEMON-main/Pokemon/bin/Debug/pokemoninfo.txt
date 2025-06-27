@@ -1,0 +1,3 @@
+Fennec;Importado;Carro;87;air dribble;ground pinch;musty flick;;C:\Users\Alunos\Documents\GitHub\ETEFMC\DesenvolvimentoDeAplicativos\CadastroPokemon\POKEMON-main\Pokemon\bin\Debug\fennec.jpg
+Eevee;Normal;Pokemon;14;Tackle;;;;C:\Users\Alunos\Documents\GitHub\ETEFMC\DesenvolvimentoDeAplicativos\CadastroPokemon\POKEMON-main\Pokemon\bin\Debug\eevee.jpg
+a;e;e;1;;;;;

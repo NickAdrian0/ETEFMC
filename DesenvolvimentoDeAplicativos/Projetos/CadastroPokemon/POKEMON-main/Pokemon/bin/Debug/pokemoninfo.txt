@@ -1,0 +1,5 @@
+Fennec;Importado;Carro;87;air dribble;ground pinch;musty flick;;C:\Users\Alunos\Documents\GitHub\ETEFMC\DesenvolvimentoDeAplicativos\CadastroPokemon\POKEMON-main\Pokemon\bin\Debug\fennec.jpg
+Eevee;Normal;Pokemon;28;Tackle;;;;C:\Users\Alunos\Documents\GitHub\ETEFMC\DesenvolvimentoDeAplicativos\CadastroPokemon\POKEMON-main\Pokemon\bin\Debug\eevee.jpg
+a;e;e;1;;;;;
+mosca;inseto;mosca;100;moscar;getar;csharpada;setar;C:\Users\Alunos\Documents\GitHub\ETEFMC\DesenvolvimentoDeAplicativos\CadastroPokemon\POKEMON-main\Pokemon\bin\Debug\mosca.jpg
+squirle23423423423423423423423;agua;pokemon;100;Jato d'gua;;;;C:\Users\Alunos\Documents\GitHub\ETEFMC\DesenvolvimentoDeAplicativos\CadastroPokemon\POKEMON-main\Pokemon\bin\Debug\squirtle.png
