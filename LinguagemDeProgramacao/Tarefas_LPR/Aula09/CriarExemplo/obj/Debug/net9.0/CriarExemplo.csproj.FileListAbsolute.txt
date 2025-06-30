@@ -1,0 +1,30 @@
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\obj\Debug\net9.0\CriarExemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\obj\Debug\net9.0\CriarExemplo.AssemblyInfoInputs.cache
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\obj\Debug\net9.0\CriarExemplo.AssemblyInfo.cs
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\obj\Debug\net9.0\CriarExemplo.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\obj\Debug\net9.0\CriarExemplo.sourcelink.json
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\bin\Debug\net9.0\CriarExemplo.exe
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\bin\Debug\net9.0\CriarExemplo.deps.json
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\bin\Debug\net9.0\CriarExemplo.runtimeconfig.json
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\bin\Debug\net9.0\CriarExemplo.dll
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\bin\Debug\net9.0\CriarExemplo.pdb
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\obj\Debug\net9.0\CriarExemplo.dll
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\obj\Debug\net9.0\refint\CriarExemplo.dll
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\obj\Debug\net9.0\CriarExemplo.pdb
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\obj\Debug\net9.0\CriarExemplo.genruntimeconfig.cache
+C:\Users\Alunos\Documents\GitHub\ETEdocumentation\Aluno de 2025\linguagem _de_programação\Atividades\Tarefas\Aula9\CriarExemplo\obj\Debug\net9.0\ref\CriarExemplo.dll
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\bin\Debug\net9.0\CriarExemplo.exe
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\bin\Debug\net9.0\CriarExemplo.deps.json
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\bin\Debug\net9.0\CriarExemplo.runtimeconfig.json
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\bin\Debug\net9.0\CriarExemplo.dll
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\bin\Debug\net9.0\CriarExemplo.pdb
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\obj\Debug\net9.0\CriarExemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\obj\Debug\net9.0\CriarExemplo.AssemblyInfoInputs.cache
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\obj\Debug\net9.0\CriarExemplo.AssemblyInfo.cs
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\obj\Debug\net9.0\CriarExemplo.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\obj\Debug\net9.0\CriarExemplo.sourcelink.json
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\obj\Debug\net9.0\CriarExemplo.dll
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\obj\Debug\net9.0\refint\CriarExemplo.dll
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\obj\Debug\net9.0\CriarExemplo.pdb
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\obj\Debug\net9.0\CriarExemplo.genruntimeconfig.cache
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\CriarExemplo\obj\Debug\net9.0\ref\CriarExemplo.dll

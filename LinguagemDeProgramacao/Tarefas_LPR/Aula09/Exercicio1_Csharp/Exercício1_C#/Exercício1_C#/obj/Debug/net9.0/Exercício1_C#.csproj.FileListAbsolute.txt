@@ -1,0 +1,15 @@
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\obj\Debug\net9.0\Exercício1_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\obj\Debug\net9.0\Exercício1_C#.AssemblyInfoInputs.cache
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\obj\Debug\net9.0\Exercício1_C#.AssemblyInfo.cs
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\obj\Debug\net9.0\Exercício1_C#.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\obj\Debug\net9.0\Exercício1_C#.sourcelink.json
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\bin\Debug\net9.0\Exercício1_C#.exe
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\bin\Debug\net9.0\Exercício1_C#.deps.json
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\bin\Debug\net9.0\Exercício1_C#.runtimeconfig.json
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\bin\Debug\net9.0\Exercício1_C#.dll
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\bin\Debug\net9.0\Exercício1_C#.pdb
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\obj\Debug\net9.0\Exercício1_C#.dll
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\obj\Debug\net9.0\refint\Exercício1_C#.dll
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\obj\Debug\net9.0\Exercício1_C#.pdb
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\obj\Debug\net9.0\Exercício1_C#.genruntimeconfig.cache
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio1_Csharp\Exercício1_C#\Exercício1_C#\obj\Debug\net9.0\ref\Exercício1_C#.dll
