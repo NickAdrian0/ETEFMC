@@ -114,9 +114,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 256
-        height: 256
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3127cf466afe5546bf526536c3a3924
-      internalID: 527299586
+      spriteID: cfb052e71d0b8be4f837efd92195a107
+      internalID: 1880278508
       vertices: []
       indices: 
       edges: []
@@ -136,8 +136,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 256
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c24784814e63615449111000c67b9252
-      internalID: -1857315056
+      spriteID: 66dbc3e3a5f900a4887b60a63820cda6
+      internalID: -1938800129
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HelloKitty_Idle_0: 527299586
-      HelloKitty_Idle_1: -1857315056
+      HelloKitty_Idle_0: 1880278508
+      HelloKitty_Idle_1: -1938800129
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

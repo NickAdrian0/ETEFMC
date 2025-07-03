@@ -22,7 +22,7 @@ public class AnimattionController : MonoBehaviour
             timer -= Time.deltaTime;
             if (timer <= 0f)
             {
-                animator.SetTrigger("Bored");
+                animator.SetTrigger("GetBored");
                 ResetTimer(); 
             }
         }
