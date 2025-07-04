@@ -5,12 +5,10 @@ using UnityEngine;
 public class Jump : MonoBehaviour
 {
     private Rigidbody2D rb;
-    public float jump = 15f;
-    public Collision2D collision2D;
-    public GameObject gameobject;
+    public float jump = 15f; 
     public bool OnFloor = false;
     public int JumpLeft = 2;
-
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -22,10 +20,9 @@ public class Jump : MonoBehaviour
 
     void Update()
     {
-
         if (Input.GetButtonDown("Jump"))
         {
-            if (collision2D.gameObject.CompareTag("Floor") && OnFloor == true && JumpLeft == 2 || JumpLeft == 1)
+            if (OnFloor == true && JumpLeft == 2 || JumpLeft == 1)
             {
                 JumpAction();
                 JumpLeft--;
@@ -34,8 +31,15 @@ public class Jump : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D collision)
+    { 
+        if (collision.gameObject.CompareTag("Floor"))
+        {
+            OnFloor = true;
+            JumpLeft = 2;
+        }
+    }
+    void OnCollisionExit2D(Collision2D collision)
     {
-        OnFloor = true;
-        JumpLeft = 2;
+        if (collision.gameObject.CompareTag("Floor")) OnFloor = false;
     }
 }
