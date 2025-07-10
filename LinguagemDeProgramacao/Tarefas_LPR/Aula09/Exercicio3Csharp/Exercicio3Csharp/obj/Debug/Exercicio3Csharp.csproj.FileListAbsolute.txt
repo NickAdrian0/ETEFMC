@@ -1,0 +1,2 @@
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio3Csharp\Exercicio3Csharp\obj\Debug\Exercicio3Csharp.csproj.AssemblyReference.cache
+C:\Users\Alunos\Documents\GitHub\ETEFMC\LinguagemDeProgramacao\Tarefas_LPR\Aula09\Exercicio3Csharp\Exercicio3Csharp\obj\Debug\Exercicio3Csharp.csproj.CoreCompileInputs.cache
